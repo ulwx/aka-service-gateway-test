@@ -44,12 +44,12 @@ aka:
             #携带acess token的参数名称
             param-name: access_token
             #秒为单位
-            expire: 30
+            expire: 3000
           refresh-token:
             #携带refresh token的参数名称
             param-name: refresh_token
             #秒为单位
-            expire: 60
+            expire: 6000
           #请求里携带access-token和 refresh-token的媒介有header,query,cookie三种。可以有多个组合，以英文逗号分隔
           token-in-request:
               in: header,cookie,query
