@@ -7,6 +7,7 @@
     <artifactId>aka-service-gateway-test</artifactId>
     <name>aka-service-gateway-test</name>
     <description>aka-service-gateway-test</description>
+    <version>2.1-SNAPSHOT</version>
     <parent>
         <groupId>com.github.ulwx</groupId>
         <artifactId>aka-common-parent</artifactId>
